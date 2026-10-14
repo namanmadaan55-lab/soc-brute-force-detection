@@ -35,3 +35,13 @@ Repeated failed logons do not automatically prove a brute-force attack. Findings
 
 ## Disclaimer
 This project is for educational and defensive cybersecurity purposes. Testing will be limited to systems and environments I am authorised to use.
+## Day 2 — Detection Script Tested
+
+- [x] Python detection script executed successfully.
+- [x] Analysed 8 sample authentication events.
+- [x] Identified 7 failed logons in the sample dataset.
+- [x] Detection alert generated for 5 failed logons within 5 minutes from `198.51.100.25`.
+- [x] Confirmed that an alert requires further investigation and does not prove an attack.
+
+### Result
+The script successfully detected a repeated-failure pattern in synthetic sample data. The result demonstrates basic detection logic, not a confirmed real-world attack.
