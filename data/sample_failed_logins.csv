@@ -1,0 +1,9 @@
+timestamp,username,source_ip,event_id,status,scenario
+2026-10-14T09:00:00Z,alex,192.0.2.10,4625,FAILED,normal_failure
+2026-10-14T09:01:00Z,alex,192.0.2.10,4625,FAILED,normal_failure
+2026-10-14T09:10:00Z,admin,198.51.100.25,4625,FAILED,suspicious_burst
+2026-10-14T09:10:10Z,admin,198.51.100.25,4625,FAILED,suspicious_burst
+2026-10-14T09:10:20Z,admin,198.51.100.25,4625,FAILED,suspicious_burst
+2026-10-14T09:10:30Z,admin,198.51.100.25,4625,FAILED,suspicious_burst
+2026-10-14T09:10:40Z,admin,198.51.100.25,4625,FAILED,suspicious_burst
+2026-10-14T09:20:00Z,alex,192.0.2.10,4624,SUCCESS,successful_login
